@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Titillium+Web:wght@600&display=swap');
+
+
+body{
+  background-color:#EEEEEE; 
+}
+
+.list-group-item{
+  border: none;
+  text-align: center;
+}
+
+.shape{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-image{
+  height: 12rem;
+  width: 100%;
+}
+
+.search{
+  height: 2.5rem;
+  width: 15rem;
+  position: absolute;
+  right: 4rem;
+  border-color: #6F38C5;
+  border-radius: 3px;
+  border-width: 2px;
+  outline: none;
+}
+
+.brand{
+  position: absolute;
+  left: 3rem;
+  font-size: 50px;
+  color: #6F38C5;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.brand:hover{
+  color: #6F38C5;
+}
+
+
+
+.search:focus{
+  border-color: #6F38C5;
+  outline: none;
+}
+
+
+.navbar{
+  padding-left: 2rem;
+  padding-right: 5rem;
+  height: 5rem;
+  margin-bottom: 20px;
+  
+ 
+}
+
+.divnav{
+  height:6rem;
+  border-bottom: 2px;
+  border-width: 10px;
+  border-color: black;
+}
+
+.info{
+  width: 85%;
+  
+  font-family: 'Lato', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.filters{
+  width: 85%;
+  height: 5rem;
+  border-radius: 7px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.selects{
+  width:80%;
+  border:none;
+  border-bottom: solid;
+  border-color: #6F38C5;
+}
+
+.selects:focus{
+ outline: none;
+}
+
+.filter-name{
+  color: grey;
+  font-weight: 500;
+  font-size: 18px;
+  position: relative;
+  top: 5px;
+}
+
+.options{
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #B1B2FF;
+
+}
+
+.verLine{
+  display: none;
+  
+  border-left: solid;
+  border-color: grey;
+  height: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-width: 6px;
+  border-radius: 2px;
+  position: relative;
+  right: 50px;
+  background-color: blue;
+
+}
+
+.divStar{
+  align-items: center;
+}
+
+.fa-star{
+  margin:3px;
+}
+
+.fa-star{
+  margin:3px;
+}
+input[type="radio"]{
+  display: none;
+}
+
+.caard{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.location{
+  color: grey;
+}
